@@ -13,3 +13,5 @@ console.log(containers)
 
 let li = document.querySelectorAll('li')
 li[0].style.color = 'red'
+
+li[2].innerText = 'Jamboree sandwich at the Jambo-ree'
