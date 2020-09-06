@@ -10,3 +10,6 @@ h2.innerText = h2.innerText + "!!!"
 
 let containers = document.querySelectorAll('.container')
 console.log(containers)
+
+let li = document.querySelectorAll('li')
+li[0].style.color = 'red'
