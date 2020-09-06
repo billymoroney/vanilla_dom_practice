@@ -8,3 +8,5 @@ console.log(h2)
 
 h2.innerText = h2.innerText + "!!!"
 
+let containers = document.querySelectorAll('.container')
+console.log(containers)
