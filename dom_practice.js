@@ -15,3 +15,8 @@ let li = document.querySelectorAll('li')
 li[0].style.color = 'red'
 
 li[2].innerText = 'Jamboree sandwich at the Jambo-ree'
+
+const newImg = document.createElement('img')
+
+newImg.setAttribute('src', 'https://patch.com/img/cdn20/users/20673003/20181016/105033/styles/raw/public/processed_images/downers_grove_46-1539701424-9663.jpg')
+containers[1].appendChild(newImg)
